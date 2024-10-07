@@ -18,6 +18,8 @@ class Tooltip extends HTMLElement {
   _showTooltip() {
     this._tooltipContainer = document.createElement('div');
     this._tooltipContainer.textContent = 'This is the tooltiptext!.';
+    this._tooltipContainer.style.backgroundColor = 'black';
+    this._tooltipContainer.style.color = 'white';
     this.appendChild(this._tooltipContainer);
   }
 
