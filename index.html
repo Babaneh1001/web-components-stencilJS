@@ -4,11 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Components</title>
+  <style>
+    div {
+      border: 2px solid green;
+    }
+  </style>
   <script src="tooltip.js"></script>
 </head>
 <body>
+  <!-- <template id="tooltip-template">
+    <slot></slot>
+    <span> (?) </span>
+  </template> -->
   <p> 
     <bb-tooltip text="Web Components is a set of standards."> Web Components </bb-tooltip> are awesome 
   </p>
+  <div>
+    <p>hellooooooooooooo</p>
+  </div>
+  <bb-tooltip></bb-tooltip>
 </body>
 </html>
